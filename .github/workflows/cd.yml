@@ -22,7 +22,8 @@ jobs:
 
       - name: Maven 빌드 & 테스트
         run: |
-          cd backend./mvnw clean package -DskipTests
+          cd backend
+          ./mvnw clean package -DskipTests
 #여기까지
       # Docker Hub 로그인 (Secrets 사용)
       - name: Docker Hub 로그인
