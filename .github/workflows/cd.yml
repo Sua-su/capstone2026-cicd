@@ -13,7 +13,7 @@ jobs:
       - name: 소스코드 체크아웃
         uses: actions/checkout@v4
 
-      # Docker Hub 로그인 (Secrets 사용)  
+      # Docker Hub 로그인 (Secrets 사용)
       - name: Docker Hub 로그인
         uses: docker/login-action@v3
         with:
