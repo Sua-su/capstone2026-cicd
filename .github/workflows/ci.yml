@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 17
-          distribution: temurin
+          distribution: temurin 
 
       # Maven으로 빌드 및 테스트 실행
       - name: Maven 빌드 & 테스트
