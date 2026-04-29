@@ -9,7 +9,7 @@ async function handleRegister() {
     const password = document.getElementById('regPassword').value;
     const name = document.getElementById('regName').value;
 
-    const memberData = {
+    const memberData = { 
         userId: userId,
         password: password,
         name: name
