@@ -18,7 +18,7 @@ public class MemberController {
     private final MemberRepository memberRepository;
     /**
      * 회원가입 API
-     * POST <http://localhost:8080/api/members/register>
+     * POST <http://13.239.27.112:8080/api/members/register>
      */
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody Member member) {
