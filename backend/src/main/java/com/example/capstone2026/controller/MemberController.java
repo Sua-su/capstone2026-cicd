@@ -31,7 +31,7 @@ public class MemberController {
     }
     /**
      * 로그인 API
-     * POST <http://localhost:8080/api/members/login>
+     * POST <http://13.239.27.112:8080:8080/api/members/login>
      */
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody Member loginRequest) {
