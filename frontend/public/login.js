@@ -11,7 +11,7 @@ async function handleRegister() {
 
     const memberData = { 
         userId: userId,
-        password: password,
+        password: password,   
         name: name
     };
 
